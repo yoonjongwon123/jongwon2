@@ -3,23 +3,66 @@
 <head>
 <TITLE>윤병장 사는 지역..</TITLE>
 <META charset="utf-8">
+
+  <style>
+
+  a {
+    color:black;
+    text-decoration: none;
+  }
+
+  body{
+    margin:0px;
+  }
+
+  #grid{
+    display:grid;
+    grid-template-columns: 200px 1fr;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 70px;
+    border-bottom:3px solid gray;
+    margin:0;
+    padding:0px;
+  }
+
+  ol{
+    border-right:5px solid gray;
+    width:100px;
+    margin:30;
+  }
+  #grid ol{
+    padding-left:40px;
+  }
+
+  @media(max-width:800px)
+      {
+        #grid{
+          display:block;
+        }
+        ol{
+          border-right:none;
+        }
+      }
+  </style>
 </head>
 
 <body>
-<h1>서울시 금천구 독산동 </h1>
+<h1>사는 지역이 어디인가? </h1>
+<div id ="grid">
 
-<ol>
-서울시 금천구 독산동 독산현대아파트 102동 103호
-미래에 살곳은
-서울시 <u>동작구</u> 및 <u>강남구가</u> 될 예정..
-</ol>
+    <ol>
+    서울시
+    </ol>
 
-<h2>사는곳 지도</h2 >
-
-<p> <img src="지도.jpg" width="200"></p>
-
-
-<u><a href="https://www.naver.com/" target="_blank" title="naver">윤종원</a></u> <BR>현재 나이 <strong>28살</strong>...자바 시작중..잘해보자..
+<div id="article">
+<h2>사는곳 지도</h2>
+<img src="지도.jpg" width="400">
+<Br>금천구 독산동 독산현대아파트 102동 103호</br>
 
 
+</div>
+</div>
 </body>
